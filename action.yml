@@ -18,7 +18,7 @@ runs:
     GIT_SHA: $GITHUB_SHA
     JOURNAL: ${{ inputs.journal }}
   args:
-    - -p -o pdf
+    - -o pdf -p
     - ${{ inputs.paper-path }}
 branding:
   icon: file-text
